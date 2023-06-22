@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+  background-color: #f7fafc;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+.containerbanner {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  
+}
+
+/* nav */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0.8rem;
+}
+
+nav h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fa3b9e;
+  text-align: left;
+  position: relative;
+  left: 15rem;
+}
+
+nav li {
+  color: #f7fafc;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  margin-left: 1rem;
+  font-size: 1.275rem;
+  cursor: pointer;
+}
+
+.loco {
+color:#EF79B6"
+}
+
+.cart-icon {
+  margin-left: 11px !important; 
+}
+
+
+/* banner */
+
+.banner {
+  padding: 5rem 0;
+  padding-bottom: 8rem;
+  text-align: left;
+  position: relative;
+  left: 16rem;
+  
+}
+
+.banner h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner span {
+  display: block;
+  color: #42CCF6;
+}
+
+.banner p {
+  font-size: 1rem;
+  opacity: 0.7;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner button {
+  background-color: #FF80B4;
+  font-size: 1.25rem;
+  padding: 1rem 1.5rem;
+  outline: 0;
+  border: 0;
+  border-radius: 0.375rem;
+  color: #eee9e9;
+  box-shadow: 0 0 15px #2e2e2e;
+  font-weight: 700;
+  cursor: pointer;
+ 
+  
+}
+
+.banner button:hover {
+  opacity: 0.9;
+}
+
+/* main */
+
+main {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.top {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.top h2 {
+  font-size: 2.25rem;
+}
+
+.top p {
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  opacity: 0.4;
+  margin-top: 1rem;
+  padding: 0 5rem;
+}
+
+/* post */
+
+.post {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
+
+.col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.col h3 {
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+.col p {
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  opacity: 0.4;
+  margin-top: 1.5rem;
+}
+
+.col img {
+  margin: 1.5rem 1.15rem;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.post.reverse {
+  flex-direction: row-reverse;
+}
+
+/* cta */
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  background-color: #e6f6fe;
+  border-radius: 0.375rem;
+}
+
+.cta p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.cta span {
+  display: block;
+  color: #03a9f4;
+}
+
+.cta button {
+  font-size: 1.125rem;
+  padding: 0.75rem 1rem;
+  background-color: #03a9f4;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  opacity: 0.9;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+footer ul {
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 1rem;
+}
+
+footer .social {
+  margin: 1.15rem 0;
+  text-align: center;
+}
+
+footer .social a {
+  font-size: 1.5rem;
+  color: #4b4c4d;
+  margin: 0 0.3rem;
+  opacity: 0.75rem;
+}
+
+footer .social a:hover {
+  opacity: 0.9;
+}
+
+footer p {
+  text-align: center;
+  opacity: 0.4;
+}
+
+@media (max-width: 651px) {
+  .top p {
+    padding: 0;
+  }
+
+  .post {
+    flex-direction: column;
+  }
+
+  .post.reverse {
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .cta {
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .cta p {
+    margin-bottom: 1rem;
+  }
+
+  .col {
+    padding: 0;
+  }
+}

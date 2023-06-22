@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RetounoApplication<retouno>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.cuatroa.retouno.RetounoApplication",
+            "projectName": "retouno",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
